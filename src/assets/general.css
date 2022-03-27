@@ -1,0 +1,22 @@
+* {
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+article {
+  margin-bottom: px;
+}
+section{
+  color:  rgb(0, 94, 255);
+  background-color: #1a1a1a;
+  
+}
+p{
+  color: #d5d5d5;
+  font-size: 22px;
+}
+

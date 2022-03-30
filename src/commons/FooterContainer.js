@@ -1,7 +1,7 @@
 import React from "react";
-import GitHubIcon from "../utils/logo/github.svg";
-import LinkedIn from "../utils/logo/linkedin.svg";
-import Gmail from "../utils/logo/gmail.svg";
+import GitHubIcon from "../utils/logos/github.svg";
+import LinkedIn from "../utils/logos/linkedin.svg";
+import Gmail from "../utils/logos/gmail.svg";
 import "../assets/footer.css";
 const FooterContainer = () => {
   return (

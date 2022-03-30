@@ -5,12 +5,12 @@ import TimelineSeparator from "@mui/lab/TimelineSeparator";
 import TimelineConnector from "@mui/lab/TimelineConnector";
 import TimelineContent from "@mui/lab/TimelineContent";
 import TimelineDot from "@mui/lab/TimelineDot";
-import GitHubIcon from "../utils/github.svg";
+import GitHubIcon from "../utils/logos/github.svg";
 import "../assets/work.css";
 const Work = () => {
   return (
     <article className="estilo-work">
-      <Timeline position="alternate">
+      <Timeline position="alternate" className="work-mobile">
         <div>
           <h1>DESARROLLO WEB</h1>
         </div>

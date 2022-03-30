@@ -1,12 +1,16 @@
-.estilo-about{
-    color:#d5d5d5 !important;
-    display: flex !important;
-    width: 60% !important;
-    height: auto !important;
-    margin: 0 auto !important;
-    font-size: 20px !important;
-    text-align: left !important;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    
+.estilo-about {
+  color: #d5d5d5 ;
+  display: flex ;
+  width: 60% ;
+  height: auto ;
+  margin: 0 auto ;
+  font-size: 20px ;
+  text-align: left ;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+@media only screen and (max-width: 600px) {
+  .estilo-about {
+    width: 90%;
+  }
 }

@@ -1,5 +1,3 @@
-import logo from "./logo.svg";
-import "./App.css";
 import NavContainer from "./commons/NavContainer";
 import FooterContainer from "./commons/FooterContainer";
 import About from "./commons/About";
@@ -8,6 +6,7 @@ import Section from "./commons/Section";
 import { Switch, Route } from "react-router";
 import ScrollToTop from "./components/ScrollToTop";
 import "./assets/general.css";
+
 
 function App() {
   return (
@@ -21,9 +20,11 @@ function App() {
 
         <Route path="/work">
           <Work />
+          
         </Route>
 
         <Route path="/about">
+          
           <About />
         </Route>
       </Switch>

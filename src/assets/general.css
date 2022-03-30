@@ -4,11 +4,13 @@
   padding: 0;
   box-sizing: border-box;
 }
-html {
+body {
   scroll-behavior: smooth;
+  overflow-y: auto !important;
+  overflow-x: hidden !important;
 }
 article {
-  margin-bottom: px;
+  position: relative;
 }
 section{
   color:  rgb(0, 94, 255);
@@ -16,6 +18,8 @@ section{
   
 }
 p{
+  
+  display: inline;
   color: #d5d5d5;
   font-size: 22px;
 }

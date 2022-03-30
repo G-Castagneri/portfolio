@@ -13,10 +13,15 @@
   max-width: 700px;
   width: 100%;
   font-weight: 500;
+  caret-color: transparent;
 }
 .texto-primer-article h1 {
   font-size: 50px;
   margin: 25px 0;
+  caret-color: transparent;
+}
+.Typewriter__cursor{
+  color: transparent;
 }
 
 .estilo-primer-article img {
@@ -35,7 +40,7 @@
   width: 15%;
   height: auto;
   filter: opacity(0.5) drop-shadow(#d5d5d5);
-  background-color: #1a1a1a;
+  
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -44,9 +49,9 @@ img {
   /* 
 	-moz-filter: opacity(0.5) drop-shadow(0 0 0 white);
 	-webkit-filter: opacity(0.5) drop-shadow(0 0 0 white);
-	filter: opacity(0.5) drop-shadow(0 0 0 rgb(2, 0, 0)); */
+	filter: drop-shadow(0 0 0 rgb(2, 0, 0)); */
   /* 
-  filter: brightness(0.1);
+  filter: brightness(1.1);
   mix-blend-mode: multiply; */
   /*  filter: opacity(0.5) drop-shadow(0 0 0 rgb(8, 80, 195)) saturate(3000%)  grayscale(200%)  contrast(60%)  brightness(1.6) blur(2px) */
   width: 30%;
@@ -69,5 +74,25 @@ img {
 @keyframes blinker {
   50% {
     opacity: 0;
+  }
+}
+@media only screen and (max-width: 600px){
+  .texto-primer-article p{
+    display: flex;
+margin-left: 3px;
+  }
+  
+  .estilo-primer-article{
+    flex-direction: column;
+    align-items: center;
+  }
+  .estilo-mobile{
+    display:flex;
+    justify-content: center;
+  }
+  .estilo-primer-article img{
+    width: 80%;
+    margin: 30px auto 10px auto;
+    position: relative;
   }
 }

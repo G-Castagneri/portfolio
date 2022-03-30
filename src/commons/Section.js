@@ -1,17 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import imagen from "../utils/foto.jpeg";
-import flecha from "../utils/flecha-chevron.png";
+import "../assets/logos.css";
 import "../assets/primer-article.css";
 import "../assets/segundo-article.css";
 import "../assets/tercer-article.css";
 import "../assets/cuarto-article.css";
 import pdf from "../utils/GASTON_CASTAGNERI_CV.pdf";
-import react_logo from "../utils/logos/reactLogo.png";
-import react from "../utils/node.png";
-import git from "../assets/git-logo.svg"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+import { logos } from "../components/logos";
+
 import { ArrowForwardIos } from "@material-ui/icons";
+
+import Typewriter from "typewriter-effect";
 
 const Section = () => {
   return (
@@ -19,16 +20,26 @@ const Section = () => {
       <article>
         <div className="estilo-primer-article">
           <div className="texto-primer-article">
-            <h1>
-              ¡Hola a todos!
-              <br /> Soy Gastón.
-            </h1>
-            <p>
-              Bienvenido a mí Porfolio, Soy Desarrollador de Software, <br />
-              Vivo en Buenos Aires, Argentina.
-            </p>
+            <Typewriter
+              onInit={(typewriter) => {
+                typewriter
+                  .changeDelay(20)
+                  .pauseFor(100)
+                  .typeString(
+                    `<h1>
+                ¡Hola a todos!
+                <br /> Soy Gastón.
+              </h1>
+              <p>
+                Bienvenido a mí porfolio, soy desarrollador de software, <br />
+                vivo en Buenos Aires, Argentina.
+                </p>`
+                )
+                  .start();
+              }}
+            />
           </div>
-          <div>
+          <div className="estilo-mobile">
             <img src={imagen} />
           </div>
         </div>
@@ -39,11 +50,12 @@ const Section = () => {
             </a>
           </div>
         </div>
+      
       </article>
       <article id="work">
         <div className="contenedor">
           <div className="estilo-resto-article">
-            <h2 >Experiencía Laboral</h2>
+            <h2>Experiencía Laboral</h2>
             <p>
               Cuento en detalle sobre la empresa que trabajé, los proyectos que
               realicé, colaboré y las tecnologías que utilicé.
@@ -65,12 +77,12 @@ const Section = () => {
       </article>
       <article id="tecnologías">
         <div className="estilo-resto-article estilo-texto-logos">
-          <h2>Tecnologías y Herramientas con las que trabajo</h2>
-          <p>Logos de Tecnologías</p>
-          <div>
-            <img src={react_logo}></img>
-            <img src={react}></img>
-            <img src={git}></img>
+          <h2>Tecnologías con las que trabajo</h2>
+
+          <div className="contenedor-logo">
+            {logos.map((logo, i) => (
+              <img id={`imagen-${i}`} src={logo}></img>
+            ))}
           </div>
         </div>
         <div className="flecha">
@@ -81,8 +93,8 @@ const Section = () => {
           </div>
         </div>
       </article>
-      <article >
-        <div >
+      <article>
+        <div>
           <div className="estilo-resto-article">
             <h2 id="sobre-mí">Sobre mí</h2>
             <p>Aca te cuento acerca de mí, mis estudios y hobbies </p>

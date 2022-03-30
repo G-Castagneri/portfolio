@@ -1,13 +1,8 @@
-.estilo-texto-logos img {
-  filter: grayscale(1);
-  height: auto;
-  width: 10%;
-  object-fit: contain;
-  vertical-align: bottom;
-  transition: 0.4s all ease;
-}
-
-.estilo-texto-logos img:hover {
-  filter: grayscale(0);
-  transform: scale(1.1);
+@media only screen and (max-width: 600px) {
+  article {
+    position: absolute;
+  }
+  .fondo-article {
+    display: none;
+  }
 }

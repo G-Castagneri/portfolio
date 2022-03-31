@@ -7,13 +7,13 @@ const NavContainer = () => {
   return (
     <nav>
       <div className="nav-container">
-        <Link to="/portfolio">
+        <Link to="/">
           <p className="estilo-logo">GC </p>
           <h3 className="estilo-logo-nombre">Gastón Castagneri</h3>
         </Link>
       </div>
       <div className="nav-container ">
-        <Link className="estilo-logo-nombre" to="/portfolio">
+        <Link className="estilo-logo-nombre" to="/">
           <h3>Home</h3>
         </Link>
         <a href={pdf} download="CASTAGNERI_GASTON_CV.pdf">

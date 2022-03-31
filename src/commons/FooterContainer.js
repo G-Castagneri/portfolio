@@ -1,8 +1,9 @@
 import React from "react";
-import GitHubIcon from "../utils/logos/github.svg";
-import LinkedIn from "../utils/logos/linkedin.svg";
-import Gmail from "../utils/logos/gmail.svg";
+import gitHubIcon from "../utils/logos/github.svg";
+import linkedIn from "../utils/logos/linkedin.svg";
+import gmail from "../utils/logos/gmail.svg";
 import "../assets/footer.css";
+
 const FooterContainer = () => {
   return (
     <footer id="contacto">
@@ -13,18 +14,17 @@ const FooterContainer = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src={GitHubIcon} width="50px" height="50px" />
+          <img src={gitHubIcon} alt="Logo GitHub" width="50px" height="50px" />
         </a>
-
         <a
           href="https://www.linkedin.com/in/gaston-castagneri/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src={LinkedIn} width="50px" height="50px" />
+          <img src={linkedIn} alt="Logo LinkedIn" width="50px" height="50px" />
         </a>
         <a href="mailto:gaston.castagneri@gmail.com">
-          <img src={Gmail} width="50px" height="50px" />
+          <img src={gmail} alt="Logo Gmail" width="50px" height="50px" />
         </a>
       </div>
     </footer>

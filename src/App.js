@@ -7,28 +7,22 @@ import { Switch, Route } from "react-router";
 import ScrollToTop from "./components/ScrollToTop";
 import "./assets/general.css";
 
-
 function App() {
   return (
-    <div >
+    <div>
       <NavContainer></NavContainer>
-        <ScrollToTop />
+      <ScrollToTop />
       <Switch>
         <Route exact path="/">
           <Section />
         </Route>
-
         <Route path="/work">
           <Work />
-          
         </Route>
-
         <Route path="/about">
-          
           <About />
         </Route>
       </Switch>
-
       <FooterContainer></FooterContainer>
     </div>
   );

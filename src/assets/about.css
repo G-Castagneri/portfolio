@@ -1,11 +1,11 @@
 .estilo-about {
-  color: #d5d5d5 ;
-  display: flex ;
-  width: 60% ;
-  height: auto ;
-  margin: 0 auto ;
-  font-size: 20px ;
-  text-align: left ;
+  color: #d5d5d5;
+  display: flex;
+  width: 60%;
+  height: auto;
+  margin: 0 auto;
+  font-size: 20px;
+  text-align: left;
   padding-top: 50px;
   padding-bottom: 50px;
 }

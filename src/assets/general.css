@@ -12,15 +12,12 @@ body {
 article {
   position: relative;
 }
-section{
-  color:  rgb(0, 94, 255);
+section {
+  color: rgb(0, 94, 255);
   background-color: #1a1a1a;
-  
 }
-p{
-  
+p {
   display: inline;
   color: #d5d5d5;
   font-size: 22px;
 }
-

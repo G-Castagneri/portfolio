@@ -14,14 +14,14 @@ footer {
   height: auto;
   margin: 20px 30px 20px 30px;
 }
-.forma-geometrica{
+.forma-geometrica {
   display: flex;
   justify-content: center;
   margin: 0 auto 20px auto;
   width: 0;
-     height: 0;
-     border-right: 50px solid transparent;
-     border-top: 50px solid transparent;
-     border-left: 50px solid transparent;
-     border-bottom: 50px solid rgb(0, 94, 255);;
+  height: 0;
+  border-right: 50px solid transparent;
+  border-top: 50px solid transparent;
+  border-left: 50px solid transparent;
+  border-bottom: 50px solid rgb(0, 94, 255);
 }

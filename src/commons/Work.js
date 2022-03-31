@@ -7,6 +7,7 @@ import TimelineContent from "@mui/lab/TimelineContent";
 import TimelineDot from "@mui/lab/TimelineDot";
 import GitHubIcon from "../utils/logos/github.svg";
 import "../assets/work.css";
+
 const Work = () => {
   return (
     <article className="estilo-work">
@@ -21,16 +22,52 @@ const Work = () => {
           </TimelineSeparator>
           <TimelineContent>
             <div className="estilo-contenedor-tarjeta">
-              <h2>Cruce App</h2>
-              <h3>Dic 2021</h3>
+              <h2>Porfolio</h2>
+              <h3>Marzo 2022</h3>
               <p>
-                Ecommerce - Aplicación web que permita la reserva de turnos para
-                empresas con sucursales físicas - Proyecto de 5 personas.
+                Página web personal, donde muestro mis habilidades y experiencia
+                laboral.
+              </p>
+              <ul>
+                <li>Tech Stack: React.Js | Material UI.</li>
+              </ul>
+              <ul>
+                <li>Herramienta de seguimiento: TRELLO.</li>
+              </ul>
+              <div className="work-img">
+                <a
+                  href="https://github.com/G-Castagneri/Porfolio"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={GitHubIcon}
+                    alt="Logo-GitHub"
+                    width="50px"
+                    height="50px"
+                  />
+                </a>
+              </div>
+            </div>
+          </TimelineContent>
+        </TimelineItem>
+        <TimelineItem>
+          <TimelineSeparator>
+            <TimelineDot color="grey" />
+            <TimelineConnector />
+          </TimelineSeparator>
+          <TimelineContent>
+            <div className="estilo-contenedor-tarjeta">
+              <h2>Cruce App</h2>
+              <h3>Diciembre 2021</h3>
+              <p>
+                E-commerce - Aplicación web que permita la reserva de turnos
+                para empresas con sucursales físicas - Proyecto de 5 personas.
               </p>
               <ul>
                 <li>
                   Colaboré en el Backend con la creación y funcionalidad de
-                  rutas, tablas, configuracion de JWT.
+                  rutas, tablas, configuración de JWT.
                   <br />
                   En el Frontend con Funcionalidad de Componentes y Estilos.
                 </li>
@@ -38,27 +75,32 @@ const Work = () => {
               <ul>
                 <li>
                   Tech Stack: Mongoose | Express.Js | React.Js | Node.Js | JWT |
-                  Next.js | Semantic UI
+                  Next.js | Semantic UI.
                 </li>
               </ul>
               <ul>
-                <li>Herramienta de seguimiento: TRELLO</li>
+                <li>Herramienta de seguimiento: TRELLO.</li>
               </ul>
               <ul>
-                <li>Metodología Agil: SCRUM</li>
+                <li>Metodología Ágil: SCRUM.</li>
               </ul>
-
               <div className="work-img">
                 <a
                   href="https://github.com/ger-s/cruce"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img src={GitHubIcon} width="50px" height="50px" />
+                  <img
+                    src={GitHubIcon}
+                    alt="Logo-GitHub"
+                    width="50px"
+                    height="50px"
+                  />
                 </a>
               </div>
-
-              {/* <ul>
+              {/*
+                SE DEJA COMENTADO PARA FUTURA FUNCIONALIDAD
+              <ul>
                 <li>Funcionalidad:</li>
                 <ul>
                   <li>Cliente</li>
@@ -77,7 +119,6 @@ const Work = () => {
                   <li>Panel de reserva:</li>
                   <ul>
                     <li>Días y horarios disponibles</li>
-
                     <li>Realizar la reserva, editarla y cancelarla</li>
                     <li>
                       Contador para realizar la reserva hasta la confirmación
@@ -120,10 +161,10 @@ const Work = () => {
           <TimelineContent>
             <div className="estilo-contenedor-tarjeta">
               <h2>Hello-World!</h2>
-              <h3>Nov 2021</h3>
+              <h3>Noviembre 2021</h3>
               <p>
-                Ecommerce - Venta de cursos on line sobre Programación -
-                Proyecto de 5 personas
+                E-commerce - Venta de cursos on line sobre Programación -
+                Proyecto de 5 personas.
               </p>
               <ul>
                 <li>
@@ -131,18 +172,17 @@ const Work = () => {
                   Componentes y Estilos.
                 </li>
               </ul>
-
               <ul>
                 <li>
                   Tech Stack: PostgreSQL | Express.Js | React.Js | Node.Js |
-                  Passport.Js. | Redux | React Bootstrap
+                  Passport.Js. | Redux | React Bootstrap.
                 </li>
               </ul>
               <ul>
-                <li>Herramienta de seguimiento: TRELLO</li>
+                <li>Herramienta de seguimiento: TRELLO.</li>
               </ul>
               <ul>
-                <li>Metodología Agil: SCRUM</li>
+                <li>Metodología Ágil: SCRUM.</li>
               </ul>
               <div className="work-img">
                 <a
@@ -150,20 +190,24 @@ const Work = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img src={GitHubIcon} width="50px" height="50px" />
+                  <img
+                    src={GitHubIcon}
+                    alt="Logo-GitHub"
+                    width="50px"
+                    height="50px"
+                  />
                 </a>
               </div>
-
-              {/* <ul>
+              {/*
+              SE DEJA COMENTADO PARA FUTURA FUNCIONALIDAD
+              <ul>
                 <li>Funcionalidades:</li>
-
                 <ul>
                   <li>Cliente</li>
                   <ul>
                     <li>Crear Usuario.</li>
                     <li>Buscar cursos y listarlos.</li>
                     <li>Previsualizar un curso.</li>
-
                     <li>
                       Comprar un curso y vincularlo automaticamente con el
                       usuario logueado.
@@ -186,7 +230,6 @@ const Work = () => {
             </div>
           </TimelineContent>
         </TimelineItem>
-
         <TimelineItem>
           <TimelineSeparator>
             <TimelineDot color="grey" />
@@ -194,19 +237,19 @@ const Work = () => {
           <TimelineContent>
             <div className="estilo-contenedor-tarjeta">
               <h2>Clone_OMDB</h2>
-              <h3>Oct 2021</h3>
+              <h3>Octubre 2021</h3>
               <p>
-                Página web de peliculas utilizando la API de OMDB - Proyecto
-                individual
+                Página web de películas utilizando la API de OMDB - Proyecto
+                individual.
               </p>
               <ul>
                 <li>
                   Tech Stack: PostgreSQL | Express.Js | React.Js | Node.Js |
-                  Passport.Js | Redux | React Bootstrap
+                  Passport.Js | Redux | React Bootstrap.
                 </li>
               </ul>
               <ul>
-                <li>Herramienta de seguimiento: TRELLO</li>
+                <li>Herramienta de seguimiento: TRELLO.</li>
               </ul>
               <div className="work-img">
                 <a
@@ -214,11 +257,17 @@ const Work = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img src={GitHubIcon} width="50px" height="50px" />
+                  <img
+                    src={GitHubIcon}
+                    alt="Logo-GitHub"
+                    width="50px"
+                    height="50px"
+                  />
                 </a>
               </div>
-
-              {/*  <ul>
+              {/* 
+              SE DEJA COMENTADO PARA FUTURA FUNCIONALIDAD
+              <ul>
                 <li>Funcionalidad:</li>
                 <ul>
                   <li>Poder ver los detalles de una película en particular.</li>
@@ -242,7 +291,6 @@ const Work = () => {
         <div>
           <h1>LATAM AIRLINES</h1>
         </div>
-
         <TimelineItem>
           <TimelineSeparator>
             <TimelineDot color="grey" />
@@ -251,20 +299,18 @@ const Work = () => {
           <TimelineContent>
             <div className="estilo-contenedor-tarjeta">
               <h2> ENCARGADO DE OPERACIONES EN PLATAFORMA</h2>
-              <h3>Jun 2012 - Nov 2020</h3>
+              <h3>Junio 2012 - Noviembre 2020</h3>
               <ul>
                 <li>Coordiné un grupo de 15 personas.</li>
                 <br />
                 <li>
                   Trabajaba en equipo junto a otros grupos en la operación del
-                  vuelo
+                  vuelo.
                 </li>
                 <br />
                 <li>
                   Estuve a cargo toda la operación en plataforma alrededor del
-                  avión, siendo el responsable del proceso seguro de
-                  abastecimiento de combustible y la seguridad tanto del
-                  personal como de la aeronave.
+                  avión, siendo el responsable de la correcta distribución de la carga en el avión, el proceso seguro de abastecimiento de combustible, y la seguridad tanto del personal como de la aeronave.
                 </li>
               </ul>
             </div>
@@ -277,7 +323,7 @@ const Work = () => {
           <TimelineContent>
             <div className="estilo-contenedor-tarjeta">
               <h2> AGENTE DE SERVICIO AL PASAJERO</h2>
-              <h3>Mar 2007 - May 2012 </h3>
+              <h3>Marzo 2007 - Mayo 2012 </h3>
               <ul>
                 <li>
                   Trabajé en el sector de equipajes, realizaba el reclamo, la
@@ -302,10 +348,3 @@ const Work = () => {
 };
 
 export default Work;
-
-/* 
-
-
-
-
-*/

@@ -1,23 +1,24 @@
-
 .estilo-link {
-    min-width: 370px;
-    margin: 0px auto;
-    margin-top: 40px;
-    width: 40%;
-    border: 3px solid #d5d5d5;
-    background-color: #1a1a1a;
-    display: flex;
-    color: #d5d5d5;
-    font-size: 25px;
-    justify-content: center;
-    padding: 15px 20px;
-    text-decoration: none;
-    cursor: pointer;
-  }
-  .estilo-link:hover {
-    background-color: rgb(0, 94, 255);
-    border: 3px solid rgb(0, 94, 255);
-    color: #1a1a1a;
-    transition: 0.7s;
-  }
-  
+  text-decoration: none;
+}
+.estilo-link p {
+  min-width: 370px;
+  margin: 0px auto;
+  margin-top: 40px;
+  width: 40%;
+  border: 3px solid #d5d5d5;
+  background-color: #1a1a1a;
+  display: flex;
+  color: #d5d5d5;
+  font-size: 25px;
+  justify-content: center;
+  padding: 15px 20px;
+  text-decoration: none !important;
+  cursor: pointer;
+}
+.estilo-link p:hover {
+  background-color: rgb(0, 94, 255);
+  border: 3px solid rgb(0, 94, 255);
+  color: #1a1a1a;
+  transition: 0.7s;
+}

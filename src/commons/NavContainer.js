@@ -1,14 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../assets/nav.css";
 import pdf from "../utils/GASTON_CASTAGNERI_CV.pdf";
+import "../assets/nav.css";
+
 const NavContainer = () => {
   return (
     <nav>
       <div className="nav-container">
         <Link to="/">
           <p className="estilo-logo">GC </p>
-
           <h3 className="estilo-logo-nombre">Gastón Castagneri</h3>
         </Link>
       </div>

@@ -11,8 +11,8 @@ import passport from "../utils/logos/passport.png";
 import postgre from "../utils/logos/postgresql.svg";
 import react from "../utils/logos/react.png";
 import redux from "../utils/logos/redux.png";
+import jwtLogo from "../utils/logos/jwt-logo.svg";
 
-import jwtLogo from "../utils/logos/jwt-logo.svg"
 export const logos = [
   html,
   css,

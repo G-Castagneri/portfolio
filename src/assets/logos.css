@@ -3,7 +3,6 @@
   justify-content: center;
   flex-wrap: wrap;
 }
-
 .estilo-texto-logos img:hover {
   filter: grayscale(0);
   transform: scale(1.1);
@@ -31,7 +30,6 @@
   width: 10%;
   height: auto;
 }
-
 #imagen-7 {
   width: 15%;
   height: auto;
@@ -48,7 +46,6 @@
   width: 6% !important;
   height: auto !important;
 }
-
 @media only screen and (max-width: 600px) {
   .estilo-resto-article {
     width: 100%;
@@ -61,6 +58,7 @@
   }
   .estilo-texto-logos img {
     margin: 5px 15px;
+    filter: none !important;
   }
   article {
     width: 100%;

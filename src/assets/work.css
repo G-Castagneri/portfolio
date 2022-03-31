@@ -72,17 +72,17 @@ li {
     display: block;
     flex-direction: column;
   }
-  /* Estilo del typewriter-effect */
+  /* Estilo del Mui-effect */
   .css-1v6o2d9-MuiTimelineItem-root:nth-of-type(even) {
     width: 100%;
     height: auto;
     flex-direction: column !important;
   }
-  /* Estilo del typewriter-effect */
+  /* Estilo del Mui-effect */
   .css-1fe7e6p-MuiTimelineSeparator-root {
     display: none !important;
   }
-  /* Estilo del typewriter-effect */
+  /* Estilo del Mui-effect */
   .css-1v6o2d9-MuiTimelineItem-root {
     flex-direction: column;
   }

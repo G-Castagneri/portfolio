@@ -13,7 +13,7 @@ function App() {
       <NavContainer></NavContainer>
       <ScrollToTop />
       <Switch>
-        <Route exact path="/">
+        <Route exact path="/portfolio">
           <Section />
         </Route>
         <Route path="/work">

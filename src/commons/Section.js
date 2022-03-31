@@ -53,7 +53,7 @@ const Section = () => {
           <div className="estilo-resto-article">
             <h2>Experiencia Laboral</h2>
             <p>
-              Cuento en detalle sobre la empresa que trabajé, los proyectos que
+              Te cuento en detalle sobre la empresa que trabajé, los proyectos que
               realicé, colaboré y las tecnologías que utilicé.
             </p>
           </div>
@@ -92,7 +92,7 @@ const Section = () => {
         <div>
           <div className="estilo-resto-article">
             <h2 id="sobre-mí">Sobre mí</h2>
-            <p>Aca te cuento acerca de mí, mis estudios y hobbies </p>
+            <p>Te cuento acerca de mí, mis estudios y hobbies </p>
           </div>
           <div>
             <Link className="estilo-link" to="/about">

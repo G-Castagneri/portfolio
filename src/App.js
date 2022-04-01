@@ -2,6 +2,7 @@ import NavContainer from "./commons/NavContainer";
 import FooterContainer from "./commons/FooterContainer";
 import About from "./commons/About";
 import Work from "./commons/Work";
+import WorkMobile from "./commons/WorkMobile";
 import Section from "./commons/Section";
 import { Switch, Route } from "react-router";
 import ScrollToTop from "./components/ScrollToTop";
@@ -18,6 +19,7 @@ function App() {
         </Route>
         <Route path="/work">
           <Work />
+          <WorkMobile />
         </Route>
         <Route path="/about">
           <About />

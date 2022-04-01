@@ -1,26 +1,15 @@
 import React from "react";
-import Timeline from "@mui/lab/Timeline";
-import TimelineItem from "@mui/lab/TimelineItem";
-import TimelineSeparator from "@mui/lab/TimelineSeparator";
-import TimelineConnector from "@mui/lab/TimelineConnector";
-import TimelineContent from "@mui/lab/TimelineContent";
-import TimelineDot from "@mui/lab/TimelineDot";
 import GitHubIcon from "../utils/logos/github.svg";
 import "../assets/work.css";
-import "../assets/work-mobile.css";
+
 const Work = () => {
   return (
-    <article id="laptop" className="estilo-work">
-      <Timeline position="alternate" className="work-mobile">
+    <article id="movil" className="estilo-work">
+      <div className="work-mobile">
         <div>
           <h1>DESARROLLO WEB</h1>
         </div>
-        <TimelineItem>
-          <TimelineSeparator id="mobile">
-            <TimelineDot color="grey" />
-            <TimelineConnector />
-          </TimelineSeparator>
-          <TimelineContent>
+        
             <div className="estilo-contenedor-tarjeta">
               <h2>Porfolio</h2>
               <h3>Marzo 2022</h3>
@@ -49,14 +38,8 @@ const Work = () => {
                 </a>
               </div>
             </div>
-          </TimelineContent>
-        </TimelineItem>
-        <TimelineItem>
-          <TimelineSeparator id="mobile">
-            <TimelineDot color="grey" />
-            <TimelineConnector />
-          </TimelineSeparator>
-          <TimelineContent>
+         
+        
             <div className="estilo-contenedor-tarjeta">
               <h2>Cruce App</h2>
               <h3>Diciembre 2021</h3>
@@ -151,14 +134,7 @@ const Work = () => {
                 </ul>
               </ul> */}
             </div>
-          </TimelineContent>
-        </TimelineItem>
-        <TimelineItem>
-          <TimelineSeparator id="mobile">
-            <TimelineDot color="grey" />
-            <TimelineConnector />
-          </TimelineSeparator>
-          <TimelineContent>
+         
             <div className="estilo-contenedor-tarjeta">
               <h2>Hello-World!</h2>
               <h3>Noviembre 2021</h3>
@@ -228,13 +204,7 @@ const Work = () => {
                 </ul>
               </ul> */}
             </div>
-          </TimelineContent>
-        </TimelineItem>
-        <TimelineItem>
-          <TimelineSeparator id="mobile">
-            <TimelineDot color="grey" />
-          </TimelineSeparator>
-          <TimelineContent>
+          
             <div className="estilo-contenedor-tarjeta">
               <h2>Clone_OMDB</h2>
               <h3>Octubre 2021</h3>
@@ -286,17 +256,11 @@ const Work = () => {
                 </ul>
               </ul> */}
             </div>
-          </TimelineContent>
-        </TimelineItem>
+          
         <div>
           <h1>LATAM AIRLINES</h1>
         </div>
-        <TimelineItem>
-          <TimelineSeparator id="mobile">
-            <TimelineDot color="grey" />
-            <TimelineConnector />
-          </TimelineSeparator>
-          <TimelineContent>
+        
             <div className="estilo-contenedor-tarjeta">
               <h2> ENCARGADO DE OPERACIONES EN PLATAFORMA</h2>
               <h3>Junio 2012 - Noviembre 2020</h3>
@@ -314,13 +278,7 @@ const Work = () => {
                 </li>
               </ul>
             </div>
-          </TimelineContent>
-        </TimelineItem>
-        <TimelineItem>
-          <TimelineSeparator id="mobile">
-            <TimelineDot color="grey" />
-          </TimelineSeparator>
-          <TimelineContent>
+       
             <div className="estilo-contenedor-tarjeta">
               <h2> AGENTE DE SERVICIO AL PASAJERO</h2>
               <h3>Marzo 2007 - Mayo 2012 </h3>
@@ -340,9 +298,7 @@ const Work = () => {
               </ul>
               <br />
             </div>
-          </TimelineContent>
-        </TimelineItem>
-      </Timeline>
+      </div>
     </article>
   );
 };

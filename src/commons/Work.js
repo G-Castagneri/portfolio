@@ -16,7 +16,7 @@ const Work = () => {
           <h1>DESARROLLO WEB</h1>
         </div>
         <TimelineItem>
-          <TimelineSeparator>
+          <TimelineSeparator id="mobile">
             <TimelineDot color="grey" />
             <TimelineConnector />
           </TimelineSeparator>
@@ -36,7 +36,7 @@ const Work = () => {
               </ul>
               <div className="work-img">
                 <a
-                  href="https://github.com/G-Castagneri/Porfolio"
+                  href="https://github.com/G-Castagneri/portfolio"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -52,7 +52,7 @@ const Work = () => {
           </TimelineContent>
         </TimelineItem>
         <TimelineItem>
-          <TimelineSeparator>
+          <TimelineSeparator id="mobile">
             <TimelineDot color="grey" />
             <TimelineConnector />
           </TimelineSeparator>
@@ -154,7 +154,7 @@ const Work = () => {
           </TimelineContent>
         </TimelineItem>
         <TimelineItem>
-          <TimelineSeparator>
+          <TimelineSeparator id="mobile">
             <TimelineDot color="grey" />
             <TimelineConnector />
           </TimelineSeparator>
@@ -231,7 +231,7 @@ const Work = () => {
           </TimelineContent>
         </TimelineItem>
         <TimelineItem>
-          <TimelineSeparator>
+          <TimelineSeparator id="mobile">
             <TimelineDot color="grey" />
           </TimelineSeparator>
           <TimelineContent>
@@ -292,7 +292,7 @@ const Work = () => {
           <h1>LATAM AIRLINES</h1>
         </div>
         <TimelineItem>
-          <TimelineSeparator>
+          <TimelineSeparator id="mobile">
             <TimelineDot color="grey" />
             <TimelineConnector />
           </TimelineSeparator>
@@ -317,7 +317,7 @@ const Work = () => {
           </TimelineContent>
         </TimelineItem>
         <TimelineItem>
-          <TimelineSeparator>
+          <TimelineSeparator id="mobile">
             <TimelineDot color="grey" />
           </TimelineSeparator>
           <TimelineContent>

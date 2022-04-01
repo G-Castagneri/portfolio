@@ -68,29 +68,43 @@ li {
   margin: 20px 30px 20px 30px;
 }
 @media only screen and (max-width: 600px) {
+  #mobile {
+    display: none !important;
+    width: 100%;
+    height: auto;
+    flex-direction: column !important;
+  }
+  #ocultar {
+    display: none !important;
+  }
+  .css-1v6o2d9-MuiTimelineItem-root:before {
+    display: none !important;
+  }
   .work-mobile {
     display: block;
     flex-direction: column;
   }
-  /* Estilo del Mui-effect */
+  /* 
+  clases de linea de tiempo a modificar en mobile
   .css-1v6o2d9-MuiTimelineItem-root:nth-of-type(even) {
     width: 100%;
     height: auto;
     flex-direction: column !important;
   }
-  /* Estilo del Mui-effect */
+
   .css-1fe7e6p-MuiTimelineSeparator-root {
     display: none !important;
   }
-  /* Estilo del Mui-effect */
+  
   .css-1v6o2d9-MuiTimelineItem-root {
     flex-direction: column;
-  }
+  } */
   .estilo-contenedor-tarjeta {
     width: 100%;
     height: auto;
+    margin: 20px auto;
   }
-  .estilo-contenedor-tarjeta ul{
+  .estilo-contenedor-tarjeta ul {
     padding-left: 30px;
   }
 }

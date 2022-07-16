@@ -20,13 +20,16 @@
   height: auto;
   width: 400px;
 }
+#imagen-2 {
+  width: 5%;
+  height: auto;
+}
 #imagen-3,
 #imagen-4,
 #imagen-5,
 #imagen-6,
 #imagen-9,
-#imagen-10,
-#imagen-12 {
+#imagen-10 {
   width: 10%;
   height: auto;
 }
@@ -40,11 +43,17 @@
 }
 #imagen-0,
 #imagen-1,
-#imagen-2,
 #imagen-11,
+#imagen-12,
 #imagen-13 {
   width: 6% !important;
   height: auto !important;
+}
+#imagen-14,
+#imagen-15,
+#imagen-16 {
+  width: 6%;
+  height: auto;
 }
 @media only screen and (max-width: 600px) {
   .estilo-resto-article {

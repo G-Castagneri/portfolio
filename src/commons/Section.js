@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import imagen from "../utils/foto.jpeg";
-import pdf from "../utils/CASTAGNERI-GASTON-CV.pdf";
+import pdf from "../utils/CASTAGNERI-GASTON.pdf";
 import { logos } from "../components/logos";
 import { ArrowForwardIos } from "@material-ui/icons";
 import Typewriter from "typewriter-effect";

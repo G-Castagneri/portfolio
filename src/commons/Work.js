@@ -6,6 +6,7 @@ import TimelineConnector from "@mui/lab/TimelineConnector";
 import TimelineContent from "@mui/lab/TimelineContent";
 import TimelineDot from "@mui/lab/TimelineDot";
 import GitHubIcon from "../utils/logos/github.svg";
+import WacoIcon from "../utils/logos/waco-green-filled.svg";
 import "../assets/work.css";
 import "../assets/work-mobile.css";
 const Work = () => {
@@ -15,6 +16,49 @@ const Work = () => {
         <div>
           <h1>DESARROLLO WEB</h1>
         </div>
+        <TimelineItem>
+          <TimelineSeparator id="mobile">
+            <TimelineDot color="grey" />
+            <TimelineConnector />
+          </TimelineSeparator>
+          <TimelineContent>
+            <div className="estilo-contenedor-tarjeta">
+              <h2>WACO DIGITAL HUB</h2>
+              <h3>Abril 2022 - Julio 2022</h3>
+              <p>
+                E-commerce - Aplicación web con enfoque en contratación de
+                distintos servicios del rubro IT.
+              </p>
+              <ul>
+                <li>
+                  Colaboré en el Frontend con la creación de distintas vistas
+                  basadas en Figma con validaciones.
+                  <br />
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  Tech Stack: React.Js | Redux | Sass | Material UI | Figma
+                </li>
+              </ul>
+              <ul>
+                <li>Herramienta de seguimiento: GitLab.</li>
+              </ul>
+              <ul>
+                <li>Metodología Ágil: SCRUM.</li>
+              </ul>
+              <div className="work-img">
+                <a
+                  href="https://wacoservices.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={WacoIcon} alt="Logo-Waco" />
+                </a>
+              </div>
+            </div>
+          </TimelineContent>
+        </TimelineItem>
         <TimelineItem>
           <TimelineSeparator id="mobile">
             <TimelineDot color="grey" />
@@ -40,12 +84,7 @@ const Work = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img
-                    src={GitHubIcon}
-                    alt="Logo-GitHub"
-                    width="50px"
-                    height="50px"
-                  />
+                  <img src={GitHubIcon} alt="Logo-GitHub" />
                 </a>
               </div>
             </div>
@@ -90,12 +129,7 @@ const Work = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img
-                    src={GitHubIcon}
-                    alt="Logo-GitHub"
-                    width="50px"
-                    height="50px"
-                  />
+                  <img src={GitHubIcon} alt="Logo-GitHub" />
                 </a>
               </div>
               {/*
@@ -190,12 +224,7 @@ const Work = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img
-                    src={GitHubIcon}
-                    alt="Logo-GitHub"
-                    width="50px"
-                    height="50px"
-                  />
+                  <img src={GitHubIcon} alt="Logo-GitHub" />
                 </a>
               </div>
               {/*
@@ -257,12 +286,7 @@ const Work = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img
-                    src={GitHubIcon}
-                    alt="Logo-GitHub"
-                    width="50px"
-                    height="50px"
-                  />
+                  <img src={GitHubIcon} alt="Logo-GitHub" />
                 </a>
               </div>
               {/* 
@@ -310,7 +334,10 @@ const Work = () => {
                 <br />
                 <li>
                   Estuve a cargo toda la operación en plataforma alrededor del
-                  avión, siendo el responsable de la correcta distribución de la carga en el avión, el proceso seguro de abastecimiento de combustible, y la seguridad tanto del personal como de la aeronave.
+                  avión, siendo el responsable de la correcta distribución de la
+                  carga en el avión, el proceso seguro de abastecimiento de
+                  combustible, y la seguridad tanto del personal como de la
+                  aeronave.
                 </li>
               </ul>
             </div>

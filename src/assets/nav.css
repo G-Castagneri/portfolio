@@ -51,4 +51,10 @@ nav a {
     flex-direction: column;
     align-items: center;
   }
+  .estilo-logo{
+    margin-right: 10px;
+  }
+  .estilo-logo-nombre{
+    margin-left: 0;
+  }
 }

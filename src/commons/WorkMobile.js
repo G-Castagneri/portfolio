@@ -2,11 +2,46 @@ import React from "react";
 import GitHubIcon from "../utils/logos/github.svg";
 import "../assets/work.css";
 import WacoIcon from "../utils/logos/waco-green-filled.svg";
+import CotoIcon from "../utils/logos/coto.svg";
 
 const Work = () => {
   return (
     <article id="movil" className="estilo-work">
       <div className="work-mobile">
+        <div className="estilo-contenedor-tarjeta">
+          <h2>COTO CICSA</h2>
+          <h3>Octubre 2022 - Actualidad</h3>
+          <p>
+            Cadena de supermercados, actualmente colaboro en el equipo de
+            soporte logísticos de su centro de distribución.
+          </p>
+          <ul>
+            <li>
+              Soporte de aplicaciones, análisis de incidentes, implementación de
+              nuevos desarrollos, capacidad de toma de decisión en cuanto a
+              mejoras y soluciones de aplicación, interacción constante con
+              áreas funcionales del cliente.
+            </li>
+          </ul>
+          <ul>
+            <li>Tech Stack: PLSQL | SQL | Forms.</li>
+          </ul>
+          <ul>
+            <li>Herramienta de seguimiento: Jira.</li>
+          </ul>
+          <ul>
+            <li>Metodología Ágil: SCRUM.</li>
+          </ul>
+          <div className="work-img work-img-coto">
+            <a
+              href="https://coto.com.ar/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={CotoIcon} alt="Logo-Coto" />
+            </a>
+          </div>
+        </div>
         <div>
           <h1>DESARROLLO WEB</h1>
         </div>

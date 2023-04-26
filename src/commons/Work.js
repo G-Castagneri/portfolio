@@ -7,6 +7,7 @@ import TimelineContent from "@mui/lab/TimelineContent";
 import TimelineDot from "@mui/lab/TimelineDot";
 import GitHubIcon from "../utils/logos/github.svg";
 import WacoIcon from "../utils/logos/waco-green-filled.svg";
+import CotoIcon from "../utils/logos/coto.svg";
 import "../assets/work.css";
 import "../assets/work-mobile.css";
 const Work = () => {
@@ -23,8 +24,50 @@ const Work = () => {
           </TimelineSeparator>
           <TimelineContent>
             <div className="estilo-contenedor-tarjeta">
+              <h2>COTO CICSA</h2>
+              <h3>Octubre 2022 - Actualidad</h3>
+              <p>
+                Cadena de supermercados, actualmente colaboro en el equipo de soporte logísticos de su
+                centro de distribución.
+              </p>
+              <ul>
+                <li>
+                  Soporte de aplicaciones, análisis de incidentes, implementación de nuevos desarrollos,
+                  capacidad de toma de decisión en cuanto a mejoras y soluciones de aplicación,
+                  interacción constante con áreas funcionales del cliente.
+                </li>
+              </ul>
+              <ul>
+                <li>Tech Stack: PLSQL | SQL | Forms.</li>
+              </ul>
+              <ul>
+                <li>Herramienta de seguimiento: Jira.</li>
+              </ul>
+              <ul>
+                <li>Metodología Ágil: SCRUM.</li>
+              </ul>
+              <div className="work-img work-img-coto">
+                <a
+                  href="https://coto.com.ar/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={CotoIcon} alt="Logo-Coto" />
+                </a>
+              </div>
+            </div>
+          </TimelineContent>
+        </TimelineItem>
+        <TimelineItem>
+          <TimelineSeparator id="mobile"></TimelineSeparator>
+          <TimelineSeparator id="mobile">
+            <TimelineDot color="grey" />
+            <TimelineConnector />
+          </TimelineSeparator>
+          <TimelineContent>
+            <div className="estilo-contenedor-tarjeta">
               <h2>WACO DIGITAL HUB</h2>
-              <h3>Abril 2022 - Julio 2022</h3>
+              <h3>Abril 2022 - Septiembre 2022</h3>
               <p>
                 E-commerce - Aplicación web con enfoque en contratación de
                 distintos servicios del rubro IT.
@@ -73,7 +116,7 @@ const Work = () => {
                 laboral.
               </p>
               <ul>
-                <li>Tech Stack: React.Js | Material UI.</li>
+                <li>Tech Stack: React.Js | Material UI | React Bootstrap.</li>
               </ul>
               <ul>
                 <li>Herramienta de seguimiento: TRELLO.</li>
@@ -105,11 +148,12 @@ const Work = () => {
               </p>
               <ul>
                 <li>
-                  Colaboré en el Backend con la creación y funcionalidad de
-                  rutas, tablas, configuración de JWT.
-                  <br />
-                  En el Frontend con Funcionalidad de Componentes y Estilos.
+                  Backend: Creación y funcionalidad de rutas, tablas,
+                  configuración de JWT.
                 </li>
+              </ul>
+              <ul>
+                <li>Frontend: Funcionalidad de Componentes y Estilos.</li>
               </ul>
               <ul>
                 <li>
@@ -202,8 +246,8 @@ const Work = () => {
               </p>
               <ul>
                 <li>
-                  Colaboré en el Frontend configuración de Redux, Funcionalidad,
-                  Componentes y Estilos.
+                  Frontend: Configuración de Redux, Funcionalidad, Componentes y
+                  Estilos.
                 </li>
               </ul>
               <ul>

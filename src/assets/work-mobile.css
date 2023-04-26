@@ -1,10 +1,12 @@
-@media only screen and (min-width: 601px){
+@media only screen and (min-width: 1100){
 
     #movil{
         display: none !important;
     }
+    
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1101) {
+  
   .estilo-work {
     margin: 0 auto;
     padding: 0;
@@ -88,4 +90,10 @@
     display: block;
     flex-direction: column;
   }
+  .work-img-coto img{
+  display: inline-block;
+  width: 100px;
+  height: auto;
+  margin: 5px 30px 5px 30px;
+}
 }

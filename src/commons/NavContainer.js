@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import pdf from "../utils/CASTAGNERI-GASTON.pdf";
+import pdf from "../utils/GASTON_CASTAGNERI_CV.pdf";
 import "../assets/nav.css";
 
 const NavContainer = () => {

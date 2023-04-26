@@ -10,7 +10,7 @@
   padding-bottom: 50px;
   min-height: 300px;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1100px) {
   .estilo-about {
     width: 90%;
     min-height: 400px;

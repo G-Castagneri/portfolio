@@ -8,6 +8,9 @@ const Work = () => {
   return (
     <article id="movil" className="estilo-work">
       <div className="work-mobile">
+        <div>
+          <h1>DESARROLLO WEB</h1>
+        </div>
         <div className="estilo-contenedor-tarjeta">
           <h2>COTO CICSA</h2>
           <h3>Octubre 2022 - Actualidad</h3>
@@ -41,9 +44,6 @@ const Work = () => {
               <img src={CotoIcon} alt="Logo-Coto" />
             </a>
           </div>
-        </div>
-        <div>
-          <h1>DESARROLLO WEB</h1>
         </div>
         <div className="estilo-contenedor-tarjeta">
           <h2>WACO DIGITAL HUB</h2>
